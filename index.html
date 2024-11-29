@@ -17,23 +17,69 @@
             border-bottom: 2px solid #333;
             padding-bottom: 10px;
         }
-        .content {
+        .content, .services, .team, .contact {
             background-color: white;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         h2 {
             color: #666;
+        }
+        .team-member {
+            margin-bottom: 15px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to New Society</h1>
     <p>This is a simple test page for our repository.</p>
+    
     <div class="content">
         <h2>About Us</h2>
         <p>We're exploring the possibilities of web development!</p>
+    </div>
+
+    <div class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Digital Design</li>
+            <li>Content Creation</li>
+            <li>Technology Consulting</li>
+        </ul>
+    </div>
+
+    <div class="team">
+        <h2>Our Team</h2>
+        <div class="team-member">
+            <h3>John Doe</h3>
+            <p>Lead Developer</p>
+        </div>
+        <div class="team-member">
+            <h3>Jane Smith</h3>
+            <p>Design Director</p>
+        </div>
+        <div class="team-member">
+            <h3>Mike Johnson</h3>
+            <p>Content Strategist</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@newsociety.test</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Tech Street, Digital City, DC 12345</p>
     </div>
 </body>
 </html>
